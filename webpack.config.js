@@ -31,14 +31,14 @@ module.exports = {
 							[
 								"env",
 								{
-									targets: { browsers: "> 10%" },
+									targets: { browsers: "> 1%" },
 									// cannot override .babelrc `modules:true` to `modules:false`
 									modules: false,
 									useBuiltIns: true
 								}
 							]
 						],
-						plugins: ["syntax-dynamic-import"]
+						plugins: ["syntax-dynamic-import", "transform-runtime"]
 					},
 					
 				}
