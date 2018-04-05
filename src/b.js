@@ -9,3 +9,10 @@ export default function Placeholders(num) {
 	);
 	//});
 }
+
+export async function waitFor(ms) {
+	const p = new Promise(resolve => {
+		setTimeout(resolve, ms);
+	});
+	return p;
+}

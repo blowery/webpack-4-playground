@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import * as ReactDom from 'react-dom';
 
 import(/* webpackChunkName: "a" */ './a').then(function(a) {
