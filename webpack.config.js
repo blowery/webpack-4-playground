@@ -16,6 +16,6 @@ module.exports = {
 		runtimeChunk: true,
 		namedChunks: true,
 		namedModules: true,
-		minimize: false,
+		minimize: true,
 	},
 };
